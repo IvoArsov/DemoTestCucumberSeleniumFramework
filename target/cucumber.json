@@ -6,567 +6,274 @@
         "before": [
           {
             "result": {
-              "duration": 1797010300,
+              "duration": 1758499100,
               "status": "passed"
             },
             "match": {
-              "location": "LoginSteps.setup()"
+              "location": "ProductsSteps.setUp()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1260775700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "ContactUsSteps.setUp()"
             }
           }
         ],
-        "line": 13,
-        "name": "Login to account with credentials",
+        "line": 3,
+        "name": "Submit valid data via contact us form",
         "description": "",
-        "id": "login-into-account;login-to-account-with-credentials;;2",
+        "id": "submit-data-to-webdriveruniversity.com-using-contact-us-form;submit-valid-data-via-contact-us-form",
         "after": [
           {
             "result": {
-              "duration": 793053800,
+              "duration": 616982900,
               "status": "passed"
             },
             "match": {
-              "location": "LoginSteps.tearDown()"
+              "location": "ProductsSteps.tearDown()"
+            }
+          },
+          {
+            "result": {
+              "duration": 633790200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "ContactUsSteps.tearDown()"
             }
           }
         ],
         "type": "scenario",
-        "keyword": "Scenario Outline",
+        "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "duration": 962214600,
+              "duration": 880916700,
               "status": "passed"
             },
             "line": 4,
-            "name": "user navigates to \"http://www.webdriveruniversity.com\"",
+            "name": "I access to webdriveruniversity contact form",
             "match": {
-              "arguments": [
-                {
-                  "val": "http://www.webdriveruniversity.com",
-                  "offset": 19
-                }
-              ],
-              "location": "LoginSteps.user_navigates_to(String)"
+              "location": "ContactUsSteps.i_access_to_webdriveruniversity_contact_form()"
             },
-            "matchedColumns": [
-              0
-            ],
             "keyword": "Given "
           },
           {
             "result": {
-              "duration": 108227800,
+              "duration": 83647500,
               "status": "passed"
             },
             "line": 5,
-            "name": "user click on the login portal button",
+            "name": "I enter a valid firstname",
             "match": {
-              "location": "LoginSteps.user_click_on_the_login_portal_button()"
+              "location": "ContactUsSteps.i_enter_a_valid_firstname()"
             },
             "keyword": "When "
           },
           {
             "result": {
-              "duration": 328688400,
+              "duration": 64148000,
               "status": "passed"
             },
             "line": 6,
-            "name": "user enters the \"user1\" username",
+            "name": "I enter a valid last name",
             "match": {
-              "arguments": [
-                {
-                  "val": "user1",
-                  "offset": 17
-                }
-              ],
-              "location": "LoginSteps.user_enters_the_username(String)"
+              "location": "ContactUsSteps.i_enter_a_valid_last_name(DataTable)"
             },
-            "matchedColumns": [
-              1
+            "rows": [
+              {
+                "cells": [
+                  "Woods",
+                  "Jackson",
+                  "Peters"
+                ],
+                "line": 7
+              }
             ],
-            "keyword": "And "
+            "keyword": "When "
           },
           {
             "result": {
-              "duration": 65172900,
-              "status": "passed"
-            },
-            "line": 7,
-            "name": "user enters the \"pass1\" password",
-            "match": {
-              "arguments": [
-                {
-                  "val": "pass1",
-                  "offset": 17
-                }
-              ],
-              "location": "LoginSteps.user_enters_the_password(String)"
-            },
-            "matchedColumns": [
-              2
-            ],
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 50755400,
+              "duration": 76233600,
               "status": "passed"
             },
             "line": 8,
-            "name": "user click on the login button",
+            "name": "I enter a valid email address",
             "match": {
-              "location": "LoginSteps.user_click_on_the_login_button()"
+              "location": "ContactUsSteps.i_enter_a_valid_email_address()"
             },
-            "keyword": "When "
+            "keyword": "And "
           },
           {
             "result": {
-              "duration": 18725000,
+              "duration": 118190700,
               "status": "passed"
             },
             "line": 9,
-            "name": "the user should be presented with the fallowing promp alert \"validation failed\"",
+            "name": "I enter comments",
             "match": {
-              "arguments": [
-                {
-                  "val": "validation failed",
-                  "offset": 61
-                }
-              ],
-              "location": "LoginSteps.the_user_should_be_presented_with_the_fallowing_promp_alert(String)"
+              "location": "ContactUsSteps.i_enter_comments(DataTable)"
             },
-            "matchedColumns": [
-              3
-            ],
-            "keyword": "Then "
-          }
-        ]
-      },
-      {
-        "before": [
-          {
-            "result": {
-              "duration": 1245487300,
-              "status": "passed"
-            },
-            "match": {
-              "location": "LoginSteps.setup()"
-            }
-          }
-        ],
-        "line": 14,
-        "name": "Login to account with credentials",
-        "description": "",
-        "id": "login-into-account;login-to-account-with-credentials;;3",
-        "after": [
-          {
-            "result": {
-              "duration": 763612600,
-              "status": "passed"
-            },
-            "match": {
-              "location": "LoginSteps.tearDown()"
-            }
-          }
-        ],
-        "type": "scenario",
-        "keyword": "Scenario Outline",
-        "steps": [
-          {
-            "result": {
-              "duration": 1645100700,
-              "status": "passed"
-            },
-            "line": 4,
-            "name": "user navigates to \"http://www.webdriveruniversity.com\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "http://www.webdriveruniversity.com",
-                  "offset": 19
-                }
-              ],
-              "location": "LoginSteps.user_navigates_to(String)"
-            },
-            "matchedColumns": [
-              0
-            ],
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 83460500,
-              "status": "passed"
-            },
-            "line": 5,
-            "name": "user click on the login portal button",
-            "match": {
-              "location": "LoginSteps.user_click_on_the_login_portal_button()"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 328327600,
-              "status": "passed"
-            },
-            "line": 6,
-            "name": "user enters the \"user1\" username",
-            "match": {
-              "arguments": [
-                {
-                  "val": "user1",
-                  "offset": 17
-                }
-              ],
-              "location": "LoginSteps.user_enters_the_username(String)"
-            },
-            "matchedColumns": [
-              1
+            "rows": [
+              {
+                "cells": [
+                  "example comments one",
+                  "example comments two"
+                ],
+                "line": 10
+              }
             ],
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 62771300,
+              "duration": 501023900,
               "status": "passed"
             },
-            "line": 7,
-            "name": "user enters the \"\" password",
+            "line": 11,
+            "name": "I click on the submit button",
             "match": {
-              "arguments": [
-                {
-                  "val": "",
-                  "offset": 17
-                }
-              ],
-              "location": "LoginSteps.user_enters_the_password(String)"
-            },
-            "matchedColumns": [
-              2
-            ],
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 55267100,
-              "status": "passed"
-            },
-            "line": 8,
-            "name": "user click on the login button",
-            "match": {
-              "location": "LoginSteps.user_click_on_the_login_button()"
+              "location": "ContactUsSteps.i_click_on_the_submit_button()"
             },
             "keyword": "When "
           },
           {
             "result": {
-              "duration": 10442600,
+              "duration": 3042909000,
               "status": "passed"
             },
-            "line": 9,
-            "name": "the user should be presented with the fallowing promp alert \"validation failed\"",
+            "line": 12,
+            "name": "The information should successfully be submitted via contact us form",
             "match": {
-              "arguments": [
-                {
-                  "val": "validation failed",
-                  "offset": 61
-                }
-              ],
-              "location": "LoginSteps.the_user_should_be_presented_with_the_fallowing_promp_alert(String)"
+              "location": "ContactUsSteps.the_information_should_successfully_be_submitted_via_contact_us_form()"
             },
-            "matchedColumns": [
-              3
-            ],
-            "keyword": "Then "
-          }
-        ]
-      },
-      {
-        "before": [
-          {
-            "result": {
-              "duration": 1206137200,
-              "status": "passed"
-            },
-            "match": {
-              "location": "LoginSteps.setup()"
-            }
-          }
-        ],
-        "line": 15,
-        "name": "Login to account with credentials",
-        "description": "",
-        "id": "login-into-account;login-to-account-with-credentials;;4",
-        "after": [
-          {
-            "result": {
-              "duration": 785320700,
-              "status": "passed"
-            },
-            "match": {
-              "location": "LoginSteps.tearDown()"
-            }
-          }
-        ],
-        "type": "scenario",
-        "keyword": "Scenario Outline",
-        "steps": [
-          {
-            "result": {
-              "duration": 1121803900,
-              "status": "passed"
-            },
-            "line": 4,
-            "name": "user navigates to \"http://www.webdriveruniversity.com\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "http://www.webdriveruniversity.com",
-                  "offset": 19
-                }
-              ],
-              "location": "LoginSteps.user_navigates_to(String)"
-            },
-            "matchedColumns": [
-              0
-            ],
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 72957100,
-              "status": "passed"
-            },
-            "line": 5,
-            "name": "user click on the login portal button",
-            "match": {
-              "location": "LoginSteps.user_click_on_the_login_portal_button()"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 294605500,
-              "status": "passed"
-            },
-            "line": 6,
-            "name": "user enters the \"\" username",
-            "match": {
-              "arguments": [
-                {
-                  "val": "",
-                  "offset": 17
-                }
-              ],
-              "location": "LoginSteps.user_enters_the_username(String)"
-            },
-            "matchedColumns": [
-              1
-            ],
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 69312600,
-              "status": "passed"
-            },
-            "line": 7,
-            "name": "user enters the \"pass1\" password",
-            "match": {
-              "arguments": [
-                {
-                  "val": "pass1",
-                  "offset": 17
-                }
-              ],
-              "location": "LoginSteps.user_enters_the_password(String)"
-            },
-            "matchedColumns": [
-              2
-            ],
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 49326100,
-              "status": "passed"
-            },
-            "line": 8,
-            "name": "user click on the login button",
-            "match": {
-              "location": "LoginSteps.user_click_on_the_login_button()"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 10376100,
-              "status": "passed"
-            },
-            "line": 9,
-            "name": "the user should be presented with the fallowing promp alert \"validation failed\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "validation failed",
-                  "offset": 61
-                }
-              ],
-              "location": "LoginSteps.the_user_should_be_presented_with_the_fallowing_promp_alert(String)"
-            },
-            "matchedColumns": [
-              3
-            ],
-            "keyword": "Then "
-          }
-        ]
-      },
-      {
-        "before": [
-          {
-            "result": {
-              "duration": 1201634800,
-              "status": "passed"
-            },
-            "match": {
-              "location": "LoginSteps.setup()"
-            }
-          }
-        ],
-        "line": 16,
-        "name": "Login to account with credentials",
-        "description": "",
-        "id": "login-into-account;login-to-account-with-credentials;;5",
-        "after": [
-          {
-            "result": {
-              "duration": 833476200,
-              "status": "passed"
-            },
-            "match": {
-              "location": "LoginSteps.tearDown()"
-            }
-          }
-        ],
-        "type": "scenario",
-        "keyword": "Scenario Outline",
-        "steps": [
-          {
-            "result": {
-              "duration": 1119459800,
-              "status": "passed"
-            },
-            "line": 4,
-            "name": "user navigates to \"http://www.webdriveruniversity.com\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "http://www.webdriveruniversity.com",
-                  "offset": 19
-                }
-              ],
-              "location": "LoginSteps.user_navigates_to(String)"
-            },
-            "matchedColumns": [
-              0
-            ],
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 84163400,
-              "status": "passed"
-            },
-            "line": 5,
-            "name": "user click on the login portal button",
-            "match": {
-              "location": "LoginSteps.user_click_on_the_login_portal_button()"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 21253895600,
-              "status": "passed"
-            },
-            "line": 6,
-            "name": "user enters the \"webdriver\" username",
-            "match": {
-              "arguments": [
-                {
-                  "val": "webdriver",
-                  "offset": 17
-                }
-              ],
-              "location": "LoginSteps.user_enters_the_username(String)"
-            },
-            "matchedColumns": [
-              1
-            ],
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 63401100,
-              "status": "passed"
-            },
-            "line": 7,
-            "name": "user enters the \"webdriver123\" password",
-            "match": {
-              "arguments": [
-                {
-                  "val": "webdriver123",
-                  "offset": 17
-                }
-              ],
-              "location": "LoginSteps.user_enters_the_password(String)"
-            },
-            "matchedColumns": [
-              2
-            ],
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 46108900,
-              "status": "passed"
-            },
-            "line": 8,
-            "name": "user click on the login button",
-            "match": {
-              "location": "LoginSteps.user_click_on_the_login_button()"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 11299100,
-              "status": "passed"
-            },
-            "line": 9,
-            "name": "the user should be presented with the fallowing promp alert \"validation succeeded\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "validation succeeded",
-                  "offset": 61
-                }
-              ],
-              "location": "LoginSteps.the_user_should_be_presented_with_the_fallowing_promp_alert(String)"
-            },
-            "matchedColumns": [
-              3
-            ],
             "keyword": "Then "
           }
         ]
       }
     ],
-    "name": "Login into account",
+    "name": "Submit data to webdriveruniversity.com using contact us form",
     "description": "",
-    "id": "login-into-account",
+    "id": "submit-data-to-webdriveruniversity.com-using-contact-us-form",
     "keyword": "Feature",
-    "uri": "Login.feature"
+    "uri": "contactus.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 1215784500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "ProductsSteps.setUp()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1200026200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "ContactUsSteps.setUp()"
+            }
+          }
+        ],
+        "line": 10,
+        "name": "Validate promo code alert is visible when clicking on the special offers link",
+        "description": "",
+        "id": "products-page;validate-promo-code-alert-is-visible-when-clicking-on-the-special-offers-link;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 1234270500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "ProductsSteps.tearDown()"
+            }
+          },
+          {
+            "result": {
+              "duration": 613824300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "ContactUsSteps.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 3454031300,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I navigate to \"http://www.webdriveruniversity.com/Page-Object-Model/products.html\" website",
+            "match": {
+              "arguments": [
+                {
+                  "val": "http://www.webdriveruniversity.com/Page-Object-Model/products.html",
+                  "offset": 15
+                }
+              ],
+              "location": "ProductsSteps.i_navigate_to_website(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3077416700,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I click on \"container-special-offers\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "container-special-offers",
+                  "offset": 12
+                }
+              ],
+              "location": "ProductsSteps.i_click_on(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3066704300,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I should be presented with a promo alert",
+            "match": {
+              "location": "ProductsSteps.i_should_be_presented_with_a_promo_alert()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Products page",
+    "description": "",
+    "id": "products-page",
+    "keyword": "Feature",
+    "uri": "products.feature"
   }
 ]
