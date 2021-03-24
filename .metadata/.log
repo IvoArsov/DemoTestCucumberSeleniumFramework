@@ -204,7 +204,7 @@ user global configuration and to define the default location to store repositori
 not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
 EGit might behave differently since they see different configuration options.
 This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
-!SESSION 2021-03-23 11:08:37.145 -----------------------------------------------
+!SESSION 2021-03-24 09:32:47.486 -----------------------------------------------
 eclipse.buildId=4.18.0.I20201202-1800
 java.version=15.0.2
 java.vendor=Oracle Corporation
@@ -212,18 +212,18 @@ BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
 Framework arguments:  -product org.eclipse.epp.package.java.product
 Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
 
-!ENTRY com.genuitec.eclipse.theming.ui 1 0 2021-03-23 11:09:23.896
+!ENTRY com.genuitec.eclipse.theming.ui 1 0 2021-03-24 09:33:07.821
 !MESSAGE DevStyle detected colors from an earlier Eclipse Color Theme install that are being cleaned up to avoid workspace pollution
 
-!ENTRY org.eclipse.jface 2 0 2021-03-23 11:09:24.466
+!ENTRY org.eclipse.jface 2 0 2021-03-24 09:33:08.323
 !MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
-!SUBENTRY 1 org.eclipse.jface 2 0 2021-03-23 11:09:24.466
+!SUBENTRY 1 org.eclipse.jface 2 0 2021-03-24 09:33:08.323
 !MESSAGE A conflict occurred for CTRL+SHIFT+T:
 Binding(CTRL+SHIFT+T,
 	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
 		Open a type in a Java editor,
 		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
-		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@1e65c4d,
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@55589ef5,
 		,,true),null),
 	org.eclipse.ui.defaultAcceleratorConfiguration,
 	org.eclipse.ui.contexts.window,,,system)
@@ -231,45 +231,45 @@ Binding(CTRL+SHIFT+T,
 	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
 		,
 		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
-		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@6b888692,
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@23a9400c,
 		,,true),null),
 	org.eclipse.ui.defaultAcceleratorConfiguration,
 	org.eclipse.ui.contexts.window,,,system)
 
-!ENTRY org.eclipse.e4.ui.workbench 2 0 2021-03-23 11:09:38.528
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2021-03-24 09:33:17.444
 !MESSAGE Removing PartDescriptorImpl with the "org.eclipse.gef.ui.palette_view" id and the "Palette" label.It points to the non available "bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" class. Bundle might have been uninstalled
 
-!ENTRY org.eclipse.e4.ui.workbench 2 0 2021-03-23 11:09:38.535
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2021-03-24 09:33:17.452
 !MESSAGE Removing PartDescriptorImpl with the "org.eclipse.mylyn.builds.navigator.builds" id and the "Builds" label.It points to the non available "bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" class. Bundle might have been uninstalled
 
-!ENTRY org.eclipse.e4.ui.workbench 2 0 2021-03-23 11:09:38.537
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2021-03-24 09:33:17.453
 !MESSAGE Removing PartDescriptorImpl with the "org.eclipse.mylyn.commons.repositories.ui.navigator.Repositories" id and the "Team Repositories" label.It points to the non available "bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" class. Bundle might have been uninstalled
 
-!ENTRY org.eclipse.e4.ui.workbench 2 0 2021-03-23 11:09:38.538
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2021-03-24 09:33:17.455
 !MESSAGE Removing PartDescriptorImpl with the "org.eclipse.mylyn.tasks.ui.views.tasks" id and the "Task List" label.It points to the non available "bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" class. Bundle might have been uninstalled
 
-!ENTRY org.eclipse.e4.ui.workbench 2 0 2021-03-23 11:09:38.540
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2021-03-24 09:33:17.456
 !MESSAGE Removing PartDescriptorImpl with the "org.eclipse.mylyn.tasks.ui.views.repositories" id and the "Task Repositories" label.It points to the non available "bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" class. Bundle might have been uninstalled
 
-!ENTRY org.eclipse.e4.ui.workbench 2 0 2021-03-23 11:09:38.542
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2021-03-24 09:33:17.458
 !MESSAGE Removing PartDescriptorImpl with the "org.eclipse.recommenders.apidocs.rcp.views.apidocs" id and the "API Docs" label.It points to the non available "bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" class. Bundle might have been uninstalled
 
-!ENTRY org.eclipse.e4.ui.workbench 2 0 2021-03-23 11:09:38.545
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2021-03-24 09:33:17.459
 !MESSAGE Removing PartDescriptorImpl with the "org.eclipse.recommenders.models.rcp.views.projectCoordinates" id and the "Project Coordinates" label.It points to the non available "bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" class. Bundle might have been uninstalled
 
-!ENTRY org.eclipse.e4.ui.workbench 2 0 2021-03-23 11:09:38.546
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2021-03-24 09:33:17.474
 !MESSAGE Removing PartDescriptorImpl with the "org.eclipse.recommenders.models.rcp.views.modelRepositories" id and the "Model Repositories" label.It points to the non available "bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" class. Bundle might have been uninstalled
 
-!ENTRY org.eclipse.e4.ui.workbench 2 0 2021-03-23 11:09:38.548
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2021-03-24 09:33:17.478
 !MESSAGE Removing PartDescriptorImpl with the "org.eclipse.recommenders.models.rcp.views.dependencyOverview" id and the "Dependency Overview" label.It points to the non available "bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" class. Bundle might have been uninstalled
 
-!ENTRY org.eclipse.e4.ui.workbench 2 0 2021-03-23 11:09:38.550
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2021-03-24 09:33:17.482
 !MESSAGE Removing PartDescriptorImpl with the "org.eclipse.recommenders.snipmatch.rcp.views.snippets" id and the "Snippets" label.It points to the non available "bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" class. Bundle might have been uninstalled
 
-!ENTRY org.eclipse.e4.ui.workbench 2 0 2021-03-23 11:09:38.559
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2021-03-24 09:33:17.505
 !MESSAGE Removing PartDescriptorImpl with the "org.eclipse.wst.common.snippets.internal.ui.SnippetsView" id and the "Snippets" label.It points to the non available "bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" class. Bundle might have been uninstalled
 
-!ENTRY org.eclipse.egit.ui 2 0 2021-03-23 11:09:39.637
+!ENTRY org.eclipse.egit.ui 2 0 2021-03-24 09:33:18.222
 !MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
 user global configuration and to define the default location to store repositories: 'C:\Users\User'. If this is
 not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
