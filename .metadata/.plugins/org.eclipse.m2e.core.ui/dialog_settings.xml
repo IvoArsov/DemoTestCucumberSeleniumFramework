@@ -2,6 +2,7 @@
 <section name="Workbench">
 	<section name="MavenProjectImportWizardPage">
 		<list key="rootDirectory">
+			<item value="C:\Users\User\Desktop\New folder\com.webdriverUniversityCucumber"/>
 			<item value="C:\Users\GBruno\Desktop\WebdriverUniversity"/>
 			<item value="C:\Users\GBruno\Desktop\WebdriverUniversity\CucumberFramework"/>
 			<item value="C:\Users\GBruno\Desktop\Test\PimCucumberFramework"/>
