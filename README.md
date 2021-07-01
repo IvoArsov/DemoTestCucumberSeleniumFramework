@@ -1,1 +1,1 @@
-Еxcersise based on Selenium, Cucumber and Java.
+Еxcercise framework based on Selenium, Cucumber and Java.
